@@ -1,0 +1,113 @@
+body {
+    background-color:bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#cover {
+    background-image: url("/bio/img/bacground.webp")
+}
+.top {
+    font-family:fantasy;
+    text-align: center;
+}
+p {
+    /* text-indent: 50px; */
+    padding: 10px;
+
+}
+
+
+h1 {
+    color:blueviolet;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+h2 {
+    color:rgb(96, 194, 230);
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.imgPos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(26, 11, 13);
+    width: 150px; 
+    height: auto;
+    border: 5px solid blueviolet;
+}
+
+
+#aboutText {
+    color: rgb(185, 131, 236);
+    text-align:center;
+    width: 600px; 
+    margin:20px auto 20px auto; 
+    font-weight: normal;
+    font-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+ .family {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* padding: 40px 80px; */
+        border-top: 2px solid lavender; 
+        }
+
+.family img {
+    margin: 20px 10px 10px 10px;
+    border: 3px solid rgb(26, 11, 13);
+    width: 100px; 
+    height: auto;
+    border-radius: 10px;
+}
+.family-text p {
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    margin: 5px 0;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#me {
+    background-color: rgb(118, 112, 69);
+    border: 2px solid aliceblue;
+    
+    }
+#husband {
+        background-color: rgb(100, 134, 237);
+        border: 2px solid aliceblue;
+        
+    }
+#child1 {
+        background-color: rgb(24, 215, 126);
+        border: 2px solid aliceblue;
+        
+        }
+#child2{
+            background-color: rgb(232, 139, 216);
+            border: 2px solid aliceblue;
+            }
+
+#pet{
+    background-color: indigo;
+    border: 2px solid aliceblue;
+    
+}
+
+nav li {
+    display:inline;
+    padding: 10px;
+    margin: 10px;
+    color:aqua;
+    background:gray;
+}
+a:hover {
+   color:rgb(24, 215, 126)
+}
+
+iframe{
+        width: 500px;
+}
